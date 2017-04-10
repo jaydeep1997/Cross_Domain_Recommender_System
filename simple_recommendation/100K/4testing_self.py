@@ -214,7 +214,7 @@ if __name__=='__main__':
 				continue 
 			actualRating = testPrefs[user][movie]
 			predcitedRating = preds[movie]
-			diff = fabs(fabs(predcitedRating) - fabs(actualRating))
+			diff = fabs((predcitedRating) - (actualRating))
 			#print (predcitedRating,actualRating,diff)
 			error.append(diff)
 			final_err.append(diff)

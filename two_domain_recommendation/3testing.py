@@ -85,7 +85,7 @@ def transformPrefs(prefs):
 
 # Gets recommendations for a person by using a weighted average
 # of every other user's rankings
-def getRecommendations(domain1,domain2,person,similarity=sim_pearson):
+def getRecommendations(domain1,domain2,person,similarity=sim_pearson) :
 
 	totals={}
 	simSums={}

@@ -54,7 +54,6 @@ def matrix_factorization(R, K, N, M, steps=50, alpha=0.0002, beta=0.02):
 
 
 if __name__=='__main__':
-    f=open("vary_beta","w")
     st=datetime.now()
     trainPrefs = loadMovieLens(file="/u1.base")
     testPrefs = loadMovieLens(file='/u1.test')
